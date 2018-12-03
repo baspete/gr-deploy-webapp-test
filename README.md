@@ -30,6 +30,12 @@ use
 https://<account>.visualstudio.com/<project>/_git/<repo>
 ```
 
+Note that in most (all?) cases there's only one repo per project, so `<project>` and `<repo>` are probably the same string. Example:
+
+```
+git clone https://geaviationdigital.visualstudio.com/mydevopsproject/_git/mydevopsproject
+```
+
 #### Proxies
 
 For Git Credential Manager to work from inside GE's network, you'll probably have to configure its proxies. Instructions are [here](https://github.com/Microsoft/Git-Credential-Manager-for-Mac-and-Linux/blob/master/Install.md) under the "How to configure the proxy server
